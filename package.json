@@ -1,0 +1,15 @@
+{
+  "name": "dmn-scala-js-presentation",
+  "version": "0.0.0",
+  "description": "Presentation for dmn-scala-js talk",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run build -- --watch --open",
+    "build": "npx pfwr dmn-scala-js.md dmn-scala-js.html",
+    "start": "npm run build -- --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Maciej Barelkowski <maciej.barelkowski@camunda.com>",
+  "license": "MIT"
+}
